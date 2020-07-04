@@ -21,3 +21,8 @@ $ docker-compose up  -d
 ```
 
 Then locate `localhost:18069` to access your Odoo 13.0.
+
+## Access development logs:
+```bash
+$ docker-compose logs -f -t --tail 100
+```
