@@ -2,7 +2,11 @@ version: '2'
 services:
 
   db:
+<<<<<<< HEAD
     container_name: odoo13_db
+=======
+    container_name: odoo13_db_ce
+>>>>>>> parent of 4701aa0... Remove all files.
     image: postgres:10
     hostname: postgres
     ports:
